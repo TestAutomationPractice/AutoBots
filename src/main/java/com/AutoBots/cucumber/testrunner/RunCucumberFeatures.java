@@ -26,7 +26,7 @@ detailedAggregatedReport = true,
 jsonUsageReport = "src/main/java/results/cucumber-reports/cucumber-usage.json",
 usageReport = true,
 toPDF = true,
-knownErrorsConfig = "src/main/java/com/AutoBots/resources/known-errors-source/sample_model.json",
+knownErrorsConfig = "src/main/java/com/AutoBots/cucumber/resources/known-errors-source/sample_model.json",
 outputFolder = "src/main/java/results")
 @CucumberOptions(plugin = { "pretty","html:src/main/java/results/cucumber-reports/cucumber-html-report",
 "json:src/main/java/results/cucumber-reports/cucumber.json",
@@ -50,7 +50,7 @@ public class RunCucumberFeatures extends ExtendedTestNGRunner
 	{
 		JSONParser parser = new JSONParser();		
 				
-		obj = parser.parse(new FileReader(System.getProperty("user.dir")+"//src//main//java//com//AutoBots//resources//Debug_OR.json"));
+		obj = parser.parse(new FileReader(System.getProperty("user.dir")+"//src//main//java//com//AutoBots//cucumber//resources//Debug_OR.json"));
 				
 		 	
 		

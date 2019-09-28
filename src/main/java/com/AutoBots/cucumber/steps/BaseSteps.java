@@ -101,7 +101,7 @@ public class BaseSteps
 	public void initializeTheDriver () {
     	
         try {
-			FileInputStream config = new FileInputStream(new File(System.getProperty("user.dir")+"//src//main//java//com//SubscribeApp//resources//config.properties"));
+			FileInputStream config = new FileInputStream(new File(System.getProperty("user.dir")+"//src//main//java//com//AutoBots//cucumber//resources//config.properties"));
 			configProperty = new Properties();
 			try {
 				configProperty.load(config);

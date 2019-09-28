@@ -1,6 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" time="0">
-<testcase classname="dummy" name="dummy">
-<skipped message="No features found"/>
+<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="11.692855">
+<testcase classname="Moive Rental Service Login Functionality" name="Login with valid admin Credential" time="6.811472">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)&#13;&#10;&#9;at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)&#13;&#10;&#9;at ✽.When User Click on login link(Login.feature:7)&#13;&#10;"><![CDATA[Given User is home page.....................................................passed
+When User Click on login link...............................................failed
+Then User enter valid "administrator".......................................skipped
+And User enter password and "tm77dac".......................................skipped
+Then User click on login button.............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)
+	at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)
+	at ✽.When User Click on login link(Login.feature:7)
+]]></failure>
+</testcase>
+<testcase classname="Moive Rental Service Login Functionality" name="Login with valid admin Credential 2" time="4.881383">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)&#13;&#10;&#9;at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)&#13;&#10;&#9;at ✽.When User Click on login link(Login.feature:7)&#13;&#10;"><![CDATA[Given User is home page.....................................................passed
+When User Click on login link...............................................failed
+Then User enter valid "hitesh"..............................................skipped
+And User enter password and "tm77da"........................................skipped
+Then User click on login button.............................................skipped
+
+StackTrace:
+java.lang.NullPointerException
+	at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)
+	at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)
+	at ✽.When User Click on login link(Login.feature:7)
+]]></failure>
 </testcase>
 </testsuite>

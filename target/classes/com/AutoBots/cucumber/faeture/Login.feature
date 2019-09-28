@@ -10,8 +10,8 @@ Scenario Outline: Login with valid admin Credential
     Then  User click on login button
     
 Examples: 
-      | username      | password |
-      | administrator | tm77dac  |
-      | hitesh        | tm77da   |
+      | username| password |
+      | user | password  |
+      | admin| password   |
 
   
