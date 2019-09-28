@@ -1,31 +1,40 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="2" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="11.692855">
-<testcase classname="Moive Rental Service Login Functionality" name="Login with valid admin Credential" time="6.811472">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)&#13;&#10;&#9;at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)&#13;&#10;&#9;at ✽.When User Click on login link(Login.feature:7)&#13;&#10;"><![CDATA[Given User is home page.....................................................passed
-When User Click on login link...............................................failed
-Then User enter valid "administrator".......................................skipped
-And User enter password and "tm77dac".......................................skipped
-Then User click on login button.............................................skipped
-
-StackTrace:
-java.lang.NullPointerException
-	at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)
-	at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)
-	at ✽.When User Click on login link(Login.feature:7)
-]]></failure>
+<testsuite failures="1" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="20.37112">
+<testcase classname="Moive Rental Service Login Functionality" name="Login with valid admin Credential" time="10.749707">
+<system-out><![CDATA[Given User is home page.....................................................passed
+When User Click on # button.................................................passed
+Then User Click on login link...............................................passed
+Then User enter valid "admin"...............................................passed
+And User enter password and "password"......................................passed
+Then User click on login button.............................................passed
+]]></system-out>
 </testcase>
-<testcase classname="Moive Rental Service Login Functionality" name="Login with valid admin Credential 2" time="4.881383">
-<failure message="java.lang.NullPointerException&#13;&#10;&#9;at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)&#13;&#10;&#9;at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)&#13;&#10;&#9;at ✽.When User Click on login link(Login.feature:7)&#13;&#10;"><![CDATA[Given User is home page.....................................................passed
-When User Click on login link...............................................failed
-Then User enter valid "hitesh"..............................................skipped
-And User enter password and "tm77da"........................................skipped
-Then User click on login button.............................................skipped
+<testcase classname="Moive Rental Service Login Functionality" name="Add movie as admin" time="9.621413">
+<failure message="java.lang.NullPointerException&#13;&#10;&#9;at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)&#13;&#10;&#9;at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)&#13;&#10;&#9;at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)&#13;&#10;&#9;at com.AutoBots.cucumber.steps.BaseSteps.waitForElement(BaseSteps.java:121)&#13;&#10;&#9;at com.AutoBots.cucumber.steps.LoginPage.user_click_on_add_movie(LoginPage.java:104)&#13;&#10;&#9;at ✽.And User click on add movie button(Login.feature:24)&#13;&#10;"><![CDATA[Given User is home page.....................................................passed
+When User Click on # button.................................................passed
+Then User Click on login link...............................................passed
+Then User enter valid "admin"...............................................passed
+And User enter password and "password"......................................passed
+Then User click on login button.............................................passed
+And User click on add movie button..........................................failed
+Then User enter movie Title "Autothon"......................................skipped
+Then User enter director name "<Director>"..................................skipped
+Then User enter Description "Interviewwith".................................skipped
+Then User select category...................................................skipped
+Then User enter movie URL "http://www.facebook.com".........................skipped
+Then Click on save mobie button.............................................skipped
 
 StackTrace:
 java.lang.NullPointerException
-	at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)
-	at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)
-	at ✽.When User Click on login link(Login.feature:7)
+	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)
+	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)
+	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)
+	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)
+	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)
+	at com.AutoBots.cucumber.steps.BaseSteps.waitForElement(BaseSteps.java:121)
+	at com.AutoBots.cucumber.steps.LoginPage.user_click_on_add_movie(LoginPage.java:104)
+	at ✽.And User click on add movie button(Login.feature:24)
 ]]></failure>
 </testcase>
 </testsuite>

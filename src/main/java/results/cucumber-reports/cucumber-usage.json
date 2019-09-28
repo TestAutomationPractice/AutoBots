@@ -1,21 +1,131 @@
 [
   {
+    "source": "^User click on login button$",
+    "steps": [
+      {
+        "name": "User click on login button",
+        "aggregatedDurations": {
+          "average": 0.07504535,
+          "median": 0.07504535
+        },
+        "durations": [
+          {
+            "duration": 0.0725246,
+            "location": "Login.feature:11"
+          },
+          {
+            "duration": 0.0775661,
+            "location": "Login.feature:23"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter password and \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User enter password and \"password\"",
+        "aggregatedDurations": {
+          "average": 0.1228847,
+          "median": 0.1228847
+        },
+        "durations": [
+          {
+            "duration": 0.1202399,
+            "location": "Login.feature:10"
+          },
+          {
+            "duration": 0.1255295,
+            "location": "Login.feature:22"
+          }
+        ]
+      }
+    ]
+  },
+  {
     "source": "^User is home page$",
     "steps": [
       {
         "name": "User is home page",
         "aggregatedDurations": {
-          "average": 0.7566116,
-          "median": 0.7566116
+          "average": 3.33365855,
+          "median": 3.33365855
         },
         "durations": [
           {
-            "duration": 0.9021287,
+            "duration": 3.6771685,
             "location": "Login.feature:6"
           },
           {
-            "duration": 0.6110945,
-            "location": "Login.feature:6"
+            "duration": 2.9901486,
+            "location": "Login.feature:18"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Click on # button$",
+    "steps": [
+      {
+        "name": "User Click on # button",
+        "aggregatedDurations": {
+          "average": 0.19773645,
+          "median": 0.19773645
+        },
+        "durations": [
+          {
+            "duration": 0.2054724,
+            "location": "Login.feature:7"
+          },
+          {
+            "duration": 0.1900005,
+            "location": "Login.feature:19"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User enter valid \"([^\"]*)\"$",
+    "steps": [
+      {
+        "name": "User enter valid \"admin\"",
+        "aggregatedDurations": {
+          "average": 0.12489115,
+          "median": 0.12489115
+        },
+        "durations": [
+          {
+            "duration": 0.1275534,
+            "location": "Login.feature:9"
+          },
+          {
+            "duration": 0.1222289,
+            "location": "Login.feature:21"
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "source": "^User Click on login link$",
+    "steps": [
+      {
+        "name": "User Click on login link",
+        "aggregatedDurations": {
+          "average": 0.16831135,
+          "median": 0.16831135
+        },
+        "durations": [
+          {
+            "duration": 0.1861894,
+            "location": "Login.feature:8"
+          },
+          {
+            "duration": 0.1504333,
+            "location": "Login.feature:20"
           }
         ]
       }

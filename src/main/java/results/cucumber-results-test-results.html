@@ -69,35 +69,35 @@ div.content {page-break-after: always;}
 		</td>
 	</tr>
 	<tr><th>Scenarios</th>
-		<td class="passed" id="scenarios_passed">0</td>
-		<td class="failed" id="scenarios_failed">2</td>
+		<td class="passed" id="scenarios_passed">1</td>
+		<td class="failed" id="scenarios_failed">1</td>
 		<td class="known" id="scenarios_known">0</td>
 		<td class="undefined" id="scenarios_undefined">0</td>
 		<td id="scenarios_total">2</td>
 		<td id="scenarios_rate">
-				0%
+				50%
 		</td>
 	</tr>
 	<tr><th>Steps</th>
-		<td class="passed" id="steps_passed">2</td>
-		<td class="failed" id="steps_failed">2</td>
+		<td class="passed" id="steps_passed">12</td>
+		<td class="failed" id="steps_failed">1</td>
 		<td class="known" id="steps_known">0</td>
 		<td class="undefined" id="steps_undefined">6</td>
-		<td id="steps_total">10</td>
+		<td id="steps_total">19</td>
 		<td id="steps_rate">
-				20%
+				63%
 		</td>
 	</tr>
 </table>
-<div><b>Overall Duration: 0h 00m 11s</b></div>
+<div><b>Overall Duration: 0h 00m 20s</b></div>
 
 <a id="top"></a><h1>Table of Contents</h1>
 
 <ol>
 <li> <span class="failed"><a href="#feature-2moive-rental-service-login-functionality">Moive Rental Service Login Functionality</a></span>
 	<ol>
-        <li> <span class="failed"><a href="#sc-14-moive-rental-service-login-functionality;login-with-valid-admin-credential;;2">Login with valid admin Credential</a></span></li>
-        <li> <span class="failed"><a href="#sc-15-moive-rental-service-login-functionality;login-with-valid-admin-credential;;3">Login with valid admin Credential</a></span></li>
+        <li> <span class="passed"><a href="#sc-15-moive-rental-service-login-functionality;login-with-valid-admin-credential;;2">Login with valid admin Credential</a></span></li>
+        <li> <span class="failed"><a href="#sc-34-moive-rental-service-login-functionality;add-movie-as-admin;;2">Add movie as admin</a></span></li>
     </ol></li>
 </ol>
 
@@ -106,65 +106,61 @@ div.content {page-break-after: always;}
 <table width="700px">
 	<tr class="failed"><td colspan="4"><b>Feature:</b> <a id="feature-2moive-rental-service-login-functionality">Moive Rental Service Login Functionality</a></td></tr>
     <tr class="failed">
-    	<td><small><b>Passed:</b> 0</small></td>
-        <td><small><b>Failed:</b> 2</small></td>
+    	<td><small><b>Passed:</b> 1</small></td>
+        <td><small><b>Failed:</b> 1</small></td>
         <td><small><b>Undefined:</b> 0</small></td>
-        <td><small>Duration: 11.69s</small></td>
+        <td><small>Duration: 20.36s</small></td>
     </tr>
 	<tr class="failed">
 		<td colspan="4" style="padding-left:20px">
 		<table width="100%">
-				<tr class="failed">
+				<tr class="passed">
 					<td colspan="4">
-						<b>Scenario Outline:</b> <a id="sc-14-moive-rental-service-login-functionality;login-with-valid-admin-credential;;2">Login with valid admin Credential</a>
+						<b>Scenario Outline:</b> <a id="sc-15-moive-rental-service-login-functionality;login-with-valid-admin-credential;;2">Login with valid admin Credential</a>
 					</td>
 				</tr>
-                <tr class="failed">
-                	<td><small><b>Passed:</b> 1</small></td>
-                	<td><small><b>Failed:</b> 1</small></td>
-					<td><small><b>Undefined:</b> 3</small></td>
-					<td><small>Duration: 6.81s</small></td>
+                <tr class="passed">
+                	<td><small><b>Passed:</b> 6</small></td>
+                	<td><small><b>Failed:</b> 0</small></td>
+					<td><small><b>Undefined:</b> 0</small></td>
+					<td><small>Duration: 10.75s</small></td>
 				</tr>
 					<tr class="passed">
 						<td>Before</td>
 						<td colspan="2"></td>
-						<td width="100">4.71s</td>
+						<td width="100">5.66s</td>
 					</tr>
                 	<tr class="passed">
                 		<td colspan="4">
                 		</td>
                 	</tr>
-                <tr class="failed">
+                <tr class="passed">
 	                <td colspan="4" style="padding-left:20px">
 						<table width="100%">
                             	<tr class="passed">
                             		<td><b>Given </b> User is home page</td>
-                            		<td width="100">0.90s</td>
+                            		<td width="100">3.68s</td>
                         		</tr>
-                            	<tr class="failed">
-                            		<td><b>When </b> User Click on login link</td>
-                            		<td width="100">0.00s</td>
+                            	<tr class="passed">
+                            		<td><b>When </b> User Click on # button</td>
+                            		<td width="100">0.21s</td>
                         		</tr>
-    								<tr class="failed">
-										<td colspan="2">
-											<br>java.lang.NullPointerException</br><br>	at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)</br><br>	at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)</br><br>	at ?.When User Click on login link(Login.feature:7)</br><br></br>
-										</td>
-									</tr>
-                            	<tr class="skipped">
-                            		<td><b>Then </b> User enter valid &quot;administrator&quot;</td>
-                            		<td width="100">0.00s</td>
+                            	<tr class="passed">
+                            		<td><b>Then </b> User Click on login link</td>
+                            		<td width="100">0.19s</td>
                         		</tr>
-                            	<tr class="skipped">
-                            		<td><b>And </b> User enter password and &quot;tm77dac&quot;</td>
-                            		<td width="100">0.00s</td>
+                            	<tr class="passed">
+                            		<td><b>Then </b> User enter valid &quot;admin&quot;</td>
+                            		<td width="100">0.13s</td>
                         		</tr>
-                            	<tr class="skipped">
+                            	<tr class="passed">
+                            		<td><b>And </b> User enter password and &quot;password&quot;</td>
+                            		<td width="100">0.12s</td>
+                        		</tr>
+                            	<tr class="passed">
                             		<td><b>Then </b> User click on login button</td>
-                            		<td width="100">0.00s</td>
+                            		<td width="100">0.07s</td>
                         		</tr>
-									<tr class="skipped">
-										<td colspan="2"><img src="14_moive_rental_service_login_functionality_login_with_valid_admin_credential__21569660503669.png" width="" /></td>
-									</tr>
 						</table>
 					</td>
 				</tr>
@@ -172,7 +168,7 @@ div.content {page-break-after: always;}
 					<tr class="passed">
 						<td>After</td>
 						<td colspan="2"></td>
-						<td width="100">1.19s</td>
+						<td width="100">0.70s</td>
 					</tr>
                 	<tr class="passed">
                 		<td colspan="4">
@@ -181,19 +177,19 @@ div.content {page-break-after: always;}
                 <tr><td colspan="5"><sup><a href="#top">Back to Table of Contents</a></sup></td></tr>
 				<tr class="failed">
 					<td colspan="4">
-						<b>Scenario Outline:</b> <a id="sc-15-moive-rental-service-login-functionality;login-with-valid-admin-credential;;3">Login with valid admin Credential</a>
+						<b>Scenario Outline:</b> <a id="sc-34-moive-rental-service-login-functionality;add-movie-as-admin;;2">Add movie as admin</a>
 					</td>
 				</tr>
                 <tr class="failed">
-                	<td><small><b>Passed:</b> 1</small></td>
+                	<td><small><b>Passed:</b> 6</small></td>
                 	<td><small><b>Failed:</b> 1</small></td>
-					<td><small><b>Undefined:</b> 3</small></td>
-					<td><small>Duration: 4.88s</small></td>
+					<td><small><b>Undefined:</b> 6</small></td>
+					<td><small>Duration: 9.62s</small></td>
 				</tr>
 					<tr class="passed">
 						<td>Before</td>
 						<td colspan="2"></td>
-						<td width="100">3.12s</td>
+						<td width="100">4.73s</td>
 					</tr>
                 	<tr class="passed">
                 		<td colspan="4">
@@ -204,31 +200,63 @@ div.content {page-break-after: always;}
 						<table width="100%">
                             	<tr class="passed">
                             		<td><b>Given </b> User is home page</td>
-                            		<td width="100">0.61s</td>
+                            		<td width="100">2.99s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>When </b> User Click on # button</td>
+                            		<td width="100">0.19s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> User Click on login link</td>
+                            		<td width="100">0.15s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> User enter valid &quot;admin&quot;</td>
+                            		<td width="100">0.12s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>And </b> User enter password and &quot;password&quot;</td>
+                            		<td width="100">0.13s</td>
+                        		</tr>
+                            	<tr class="passed">
+                            		<td><b>Then </b> User click on login button</td>
+                            		<td width="100">0.08s</td>
                         		</tr>
                             	<tr class="failed">
-                            		<td><b>When </b> User Click on login link</td>
+                            		<td><b>And </b> User click on add movie button</td>
                             		<td width="100">0.00s</td>
                         		</tr>
     								<tr class="failed">
 										<td colspan="2">
-											<br>java.lang.NullPointerException</br><br>	at com.AutoBots.cucumber.TestUtils.TestUtil.getElement(TestUtil.java:23)</br><br>	at com.AutoBots.cucumber.steps.LoginPage.user_click_on_login(LoginPage.java:61)</br><br>	at ?.When User Click on login link(Login.feature:7)</br><br></br>
+											<br>java.lang.NullPointerException</br><br>	at org.openqa.selenium.remote.RemoteWebDriver.findElements(RemoteWebDriver.java:305)</br><br>	at org.openqa.selenium.support.ui.ExpectedConditions.findElement(ExpectedConditions.java:895)</br><br>	at org.openqa.selenium.support.ui.ExpectedConditions.access$000(ExpectedConditions.java:44)</br><br>	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:206)</br><br>	at org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:202)</br><br>	at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:248)</br><br>	at com.AutoBots.cucumber.steps.BaseSteps.waitForElement(BaseSteps.java:121)</br><br>	at com.AutoBots.cucumber.steps.LoginPage.user_click_on_add_movie(LoginPage.java:104)</br><br>	at ?.And User click on add movie button(Login.feature:24)</br><br></br>
 										</td>
 									</tr>
                             	<tr class="skipped">
-                            		<td><b>Then </b> User enter valid &quot;hitesh&quot;</td>
+                            		<td><b>Then </b> User enter movie Title &quot;Autothon&quot;</td>
                             		<td width="100">0.00s</td>
                         		</tr>
                             	<tr class="skipped">
-                            		<td><b>And </b> User enter password and &quot;tm77da&quot;</td>
+                            		<td><b>Then </b> User enter director name &quot;&lt;Director&gt;&quot;</td>
                             		<td width="100">0.00s</td>
                         		</tr>
                             	<tr class="skipped">
-                            		<td><b>Then </b> User click on login button</td>
+                            		<td><b>Then </b> User enter Description &quot;Interviewwith&quot;</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+                            	<tr class="skipped">
+                            		<td><b>Then </b> User select category</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+                            	<tr class="skipped">
+                            		<td><b>Then </b> User enter movie URL &quot;http://www.facebook.com&quot;</td>
+                            		<td width="100">0.00s</td>
+                        		</tr>
+                            	<tr class="skipped">
+                            		<td><b>Then </b> Click on save mobie button</td>
                             		<td width="100">0.00s</td>
                         		</tr>
 									<tr class="skipped">
-										<td colspan="2"><img src="15_moive_rental_service_login_functionality_login_with_valid_admin_credential__31569660503672.png" width="" /></td>
+										<td colspan="2"><img src="34_moive_rental_service_login_functionality_add_movie_as_admin__21569669820000.png" width="" /></td>
 									</tr>
 						</table>
 					</td>
@@ -237,7 +265,7 @@ div.content {page-break-after: always;}
 					<tr class="passed">
 						<td>After</td>
 						<td colspan="2"></td>
-						<td width="100">1.15s</td>
+						<td width="100">1.23s</td>
 					</tr>
                 	<tr class="passed">
                 		<td colspan="4">
