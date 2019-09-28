@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="26417" started-at="2019-09-28T11:23:13Z" finished-at="2019-09-28T11:23:40Z">
+    <groups>
+      <group name="cucumber">
+        <method signature="ExtendedTestNGRunner.feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.AutoBots.cucumber.testrunner.RunCucumberFeatures@3e77a1ed]" name="feature" class="com.github.mkolisnyk.cucumber.runner.ExtendedTestNGRunner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Subscribe APP Functionality" duration-ms="26417" started-at="2019-09-28T11:23:13Z" finished-at="2019-09-28T11:23:40Z">
+      <class name="com.AutoBots.cucumber.testrunner.RunCucumberFeatures">
+        <test-method status="PASS" signature="beforeSuite(java.lang.String)[pri:0, instance:com.AutoBots.cucumber.testrunner.RunCucumberFeatures@3e77a1ed]" name="beforeSuite" is-config="true" duration-ms="17" started-at="2019-09-28T16:53:13Z" finished-at="2019-09-28T16:53:13Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[debug]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:com.AutoBots.cucumber.testrunner.RunCucumberFeatures@3e77a1ed]" name="setUpClass" is-config="true" duration-ms="336" started-at="2019-09-28T16:53:13Z" finished-at="2019-09-28T16:53:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="feature(cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.AutoBots.cucumber.testrunner.RunCucumberFeatures@3e77a1ed]" name="feature" duration-ms="20530" started-at="2019-09-28T16:53:14Z" description="Runs Cucumber Feature" data-provider="features" finished-at="2019-09-28T16:53:34Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[Moive Rental Service Login Functionality]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- feature -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:com.AutoBots.cucumber.testrunner.RunCucumberFeatures@3e77a1ed]" name="tearDownClass" is-config="true" duration-ms="5455" started-at="2019-09-28T16:53:34Z" finished-at="2019-09-28T16:53:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.AutoBots.cucumber.testrunner.RunCucumberFeatures -->
+    </test> <!-- Subscribe APP Functionality -->
+  </suite> <!-- Suite -->
+</testng-results>

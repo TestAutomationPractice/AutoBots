@@ -1,0 +1,114 @@
+{
+		"#_link":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//*[@id='main']/span/button"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"login_link":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//a[@name='Cancel']"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"username":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//input[@name='username' and @type='text']"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"password":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//input[@name='password' and @type='password']"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"login_btn":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//button[@name='Login' and @type='button']" 
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"add_movie_btn":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//a[@href='/addMovie']"
+ 
+ 
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"movie_title":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//*[@id='main']/div/div[1]/div/input" 
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+		
+	"director":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//*[@id='main']/div/div[2]/div/input" 
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"description":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//*[@id='main']/div/div[3]/div/textarea" 
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"category":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//*[@id='main']/div/div[4]/div/select" 
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	"url":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//*[@id='main']/div/div[5]/div/input"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	},
+	
+	
+	"save_btn":{
+		"chrome" : {	"locator": "xpath",
+						"value" : "//*[@id='main']/div/div[7]/div/div/button[1]"
+					},
+			"iOS" : {	"locator": "xpath",
+						"value" : ""
+					}
+	}
+	
+}
